@@ -22,6 +22,7 @@ This is a place where I am making a notes about things that I newly learned by f
   also learned that Next.js performs prefetching of the linked page if **Link** component exist so that when user clicks the component the page is ready to be served already.i
   This is also a chapter that shows active link on the nav bar using **clsx** library.
 ### chapter 6
+  This chapter went over how to setup github and host database and the app through vercel.
 ### chapter 7
 ### chapter 8
 ### chapter 9
