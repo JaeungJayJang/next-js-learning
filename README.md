@@ -17,6 +17,10 @@ This is a place where I am making a notes about things that I newly learned by f
 ### chapter 4
   This covered about layouts in Next.js app route. it helped to review my understanding.
 ### chapter 5
+  This chapter introduced link component and how to use it.
+  Learned that the Link allows partial refreshing instead of full refresh and I was able to see this behavior through console, network tab.
+  also learned that Next.js performs prefetching of the linked page if **Link** component exist so that when user clicks the component the page is ready to be served already.i
+  This is also a chapter that shows active link on the nav bar using **clsx** library.
 ### chapter 6
 ### chapter 7
 ### chapter 8
