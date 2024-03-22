@@ -24,6 +24,10 @@ This is a place where I am making a notes about things that I newly learned by f
 ### chapter 6
   This chapter went over how to setup github and host database and the app through vercel.
 ### chapter 7
+  This chapter covered data fetching.
+  This mentions that one of the pro about server side component is that the props are not necessary and data can be fetched directly, but as I've been using CSC so far that this felt like serving static pages and no dynamics at all, and requiring additional lines to define that the file is associated with **client** at the top. I need more experience on clearly identifying what components are beneficial to be server side vs client side before I do anything to reduce design time.
+  The nitty gritty portions for retrieving data from SQL is given that I feel like I am not getting this yet.. I need to dig more into it and actually write this myself to get experience.
+  This also covers the usage of **Promise.all** to send request in parallel. Good example.
 ### chapter 8
 ### chapter 9
 ### chapter 10
