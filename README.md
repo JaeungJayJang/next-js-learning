@@ -38,6 +38,8 @@ This is a place where I am making a notes about things that I newly learned by f
   This chapter also covered three different ways to handle the loading state, where usage of the **loading.tsx** is the most astonishing feature so far;
   I did not know that next.js implemented this feature until now.
   whatever approach I take from here, I still need to make the skeleton components myself, so that is a bit disappointment, but it's not like I found one library that can do this... so this is good anyway.
+  This chapter also introduced **Route Group** that allows files such as loading.tsx does not apply to the child component by excluding the groups from URL path.
+  This route group can be used to group files together and make as sections to easily identify which files are associated with which teams in larger projects. this is a good feature indeed to manage tasks.
 ### chapter 10
 ### chapter 11
 ### chapter 12
