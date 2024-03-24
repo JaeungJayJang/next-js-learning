@@ -29,6 +29,8 @@ This is a place where I am making a notes about things that I newly learned by f
   The nitty gritty portions for retrieving data from SQL is given that I feel like I am not getting this yet.. I need to dig more into it and actually write this myself to get experience.
   This also covers the usage of **Promise.all** to send request in parallel. Good example.
 ### chapter 8
+  This chapter covered about how to make the request dynamic. The problem is that the components are server side components and they are cached into CDN and this is not a great behavior for applications like dashboard that relies on up-to-date data. So this chapter introduced a way to make next.js API dynamic by using **unstable_noStore** function as **noStore** and use this function at the top of each functions.
+  my go to backend so far is based on python and I wonder how this can be helpful for me unless I go with node based API... I will just keep this in mind that this exist.
 ### chapter 9
 ### chapter 10
 ### chapter 11
