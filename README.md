@@ -32,6 +32,12 @@ This is a place where I am making a notes about things that I newly learned by f
   This chapter covered about how to make the request dynamic. The problem is that the components are server side components and they are cached into CDN and this is not a great behavior for applications like dashboard that relies on up-to-date data. So this chapter introduced a way to make next.js API dynamic by using **unstable_noStore** function as **noStore** and use this function at the top of each functions.
   my go to backend so far is based on python and I wonder how this can be helpful for me unless I go with node based API... I will just keep this in mind that this exist.
 ### chapter 9
+  This chapter is one of the best chapter to look for so far: it covered about how to show skeletons when data is being loaded.
+  I was able to achieve this with HTTP request and states before but indeed this was too much to write, and probably not direct to understand.
+  As this chapter covered, **Suspense** function from React library would be a better alternative approach to handle the loading state.
+  This chapter also covered three different ways to handle the loading state, where usage of the **loading.tsx** is the most astonishing feature so far;
+  I did not know that next.js implemented this feature until now.
+  whatever approach I take from here, I still need to make the skeleton components myself, so that is a bit disappointment, but it's not like I found one library that can do this... so this is good anyway.
 ### chapter 10
 ### chapter 11
 ### chapter 12
