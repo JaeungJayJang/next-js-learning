@@ -51,6 +51,11 @@ This is a place where I am making a notes about things that I newly learned by f
   
   Pagination is cool, but it seems to be that this is a more complex usage of the hooks covered above and using **page** query param instead of **query** query param.
 ### chapter 12
+  As the chapter goes toward the end, more valuable contents are covered in the chapter.
+  This chapter introduced something called server actions and this is indeed cool that Vercel introduced this feature into Next.js, I am a bit unsure if this will be useful for my case where I will likely to build my own API route with Python that I am more familiar with. I could use API route and the server route seems to make it easier than making API route logic, but would need to see how Vercel wants to move with this in the later version.
+  One thing that makes me wonder is that the entire example relies on the form to make the API call, which is fine but I thought that forms are all POST request and it makes me think that the logic is a bit unorganized..
+  another potentially useful library used here is **ZOD**. I created a separate file that keeps schema of the database and then used it to validate if the data is correct. At first I was unsure why this is needed as typescript itself can check if the variable types are correct until I see a comment comparing **ZOD with YUP...** I used YUP before when I needed to implement logic to check if user input for form is correct and this experience makes me think backward that ZOD is a similar tool as YUP but more friendly with typescript and I could define the variables, strings however I want with ZOD.<br/>
+  [Another thing I found is that the type safety for typescript is only during compile time and ZOD can validate during runtime to provide increase security and reliability.](https://www.turing.com/blog/data-integrity-through-zod-validation/#:~:text=Some%20developers%20might%20reason%2C%20Why,Zod%20library%20solves%20this%20problem.)
 ### chapter 13
 ### chapter 14
 ### chapter 15
