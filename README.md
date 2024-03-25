@@ -43,6 +43,13 @@ This is a place where I am making a notes about things that I newly learned by f
 ### chapter 10
   Skipping this chapter as this is an experimental feature as of right now.
 ### chapter 11
+  This was a long chapter that covered about search and pagination feature and I thing it is one of the best chapter covered here alogn with chapter 9.
+  This uses useSearchParams hook to get query parameters, usePathname hook to get current pathname, and useRouter hook to change page on client side. It covers how to make the search dynamic using these 3 hooks and also how this request can be sent to the server side components and triggers it to work. This is a great concept to know that the server side can be affected by the changes on the client side. This still feels it's a bit magic to me but my assumption is that the changes on the client affects the changes DOM, and that's why server side is also rerendered? I need to look more into DOM manipulation part to fully capture the behind logic of this.
+  It is also great that searchParams are supported from **page.tsx** so I can use directly inside page.tsx. (although I need to specify the type..)
+  Another great thing covered: **debouncing**. This tutorial introduce public library called `use-debounce` and it can help to implement debounce logic out of box so I don't need to make the logic myself.
+  It was conversome to implement all this with state and would be a great option in future projects. Logic is simple; I can change the function that are passed to the onChange with the useDebouncedCallback wrapper function and define the debouncing rate at the end.
+  
+  Pagination is cool, but it seems to be that this is a more complex usage of the hooks covered above and using **page** query param instead of **query** query param.
 ### chapter 12
 ### chapter 13
 ### chapter 14
