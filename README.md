@@ -57,6 +57,8 @@ This is a place where I am making a notes about things that I newly learned by f
   another potentially useful library used here is **ZOD**. I created a separate file that keeps schema of the database and then used it to validate if the data is correct. At first I was unsure why this is needed as typescript itself can check if the variable types are correct until I see a comment comparing **ZOD with YUP...** I used YUP before when I needed to implement logic to check if user input for form is correct and this experience makes me think backward that ZOD is a similar tool as YUP but more friendly with typescript and I could define the variables, strings however I want with ZOD.<br/>
   [Another thing I found is that the type safety for typescript is only during compile time and ZOD can validate during runtime to provide increase security and reliability.](https://www.turing.com/blog/data-integrity-through-zod-validation/#:~:text=Some%20developers%20might%20reason%2C%20Why,Zod%20library%20solves%20this%20problem.)
 ### chapter 13
+  This  chapter covers uasge of try and catch, with the intro to error.tsx and not-found.tsx pages that can be shown when errors arise and handling it on client side.<br/>
+  This uses not-found function from `next/navigation` that basically reroute the user to not-found.tsx page. One I was worried at first is that the function handles automatically based on the type as well, such as like showing notfound only when the request is of GET request, but it seems to be **NOT**, and I can implement logics however I want and show the page at the line it needs to be, so this is better for the most of my usual cases.
 ### chapter 14
 ### chapter 15
 ### chapter 16
