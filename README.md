@@ -1,3 +1,8 @@
+# Next.js learning from official [website](https://nextjs.org/learn/dashboard-app/next-steps)
+  There has been a lot of changes since Next.js version 12 and I thought it would be a good recap for me to review what I know vs don't know && learning what has been newly updated since the last time, so here is the repo that I kept to follow the offical tutorial and any comments that are worth me to go back and check later. I learned so much new concepts and tools that are out there that I regret not knowing before; my life could have been much simpler XD
+
+
+
 ## Next.js App Router Course - Starter
 
 This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
