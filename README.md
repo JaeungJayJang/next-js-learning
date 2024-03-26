@@ -71,4 +71,6 @@ This is a place where I am making a notes about things that I newly learned by f
   also used `useFormState` hook to keep the previous states of the variables and use them to show error messages to the end user or not.
   I did not bother to learn about aria tags before and I learned the importance of them from this chapter.
 ### chapter 15
+  Whole chapter covers about how to implement authentication. the example is based on it's own logic to sign in instead of popular ones like SSO, this will be a great cover to understand the logic.
+  **nextAuth.js** (which will soon be auth.js) is also a great tool that I can use with popular IdP like Azure ad.
 ### chapter 16
