@@ -74,3 +74,11 @@ This is a place where I am making a notes about things that I newly learned by f
   Whole chapter covers about how to implement authentication. the example is based on it's own logic to sign in instead of popular ones like SSO, this will be a great cover to understand the logic.
   **nextAuth.js** (which will soon be auth.js) is also a great tool that I can use with popular IdP like Azure ad.
 ### chapter 16
+  This is the last chapter and it is covering about metadata. This is also another topic that I was not familiar and it gave me a good insight what this is.
+
+  Something that I still confuse here though is that next.js automatically assigns metadata in `/app` directory even for images and favicon by moving those files from `/public`...
+  I've been thought that these files are considered to abe public and only be placed in the public folder so this movement of the files actually brings up question to me..
+
+
+  At the second half of the chapter it covers about how to add metadata from each `page.tsx` or `layout.tsx` files to control programmatically. I just need to import `Metadata` from `next` library and export it from either of those files.
+  the metadata can be nested to apply different titles as well per page.
