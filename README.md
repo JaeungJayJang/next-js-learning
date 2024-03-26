@@ -60,5 +60,15 @@ This is a place where I am making a notes about things that I newly learned by f
   This  chapter covers uasge of try and catch, with the intro to error.tsx and not-found.tsx pages that can be shown when errors arise and handling it on client side.<br/>
   This uses not-found function from `next/navigation` that basically reroute the user to not-found.tsx page. One I was worried at first is that the function handles automatically based on the type as well, such as like showing notfound only when the request is of GET request, but it seems to be **NOT**, and I can implement logics however I want and show the page at the line it needs to be, so this is better for the most of my usual cases.
 ### chapter 14
+  accessibility:
+  uses [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) to check accessibility beforehand. things include `alt`, `aria-*`, and `role`.<br/>
+
+  - Use semantic HTML; use proper html tags instead of div.
+  - Use labelling: use `label` or `htmlFor` for each field.
+  - focus outline when a field is selected.
+
+  It was a hand-on practice section to implement the components with high accessibility. Learned usage of aria tags that are useful to show text in error and those are `aria-describedby` and `aria-live`.
+  also used `useFormState` hook to keep the previous states of the variables and use them to show error messages to the end user or not.
+  I did not bother to learn about aria tags before and I learned the importance of them from this chapter.
 ### chapter 15
 ### chapter 16
